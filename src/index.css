@@ -1,5 +1,5 @@
 /* feel free to go on google fonts and change this to another font! */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap");
 
 /* == UI COMPONENTS == */
 /* buttons */
@@ -14,7 +14,7 @@ button,
   text-decoration: none;
   font-size: 1rem;
   /* if you change the font, don't forget to change it here too! */
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cairo', sans-serif;
   padding: .6rem 1.2rem;
   vertical-align: middle;
   text-align: center;
@@ -30,7 +30,7 @@ button,
 [type="button"]:hover,
 [type="submit"]:hover,
 button:hover {
-  background-color: white;
+  background-color: rgb(241, 105, 128);
 }
 
 .buttons {
@@ -47,7 +47,7 @@ button:hover {
 
 html {
   box-sizing: border-box;
-  font-family: "Space Mono", monospace;
+  font-family: "Cairo", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
@@ -72,15 +72,15 @@ body {
 
 /* Anchors */
 a {
-  border-bottom: 3px solid #beebaa44;
-  color: #5a7913;
+  border-bottom: 3px solid #00ebf3;
+  color: #16aaff;
   font-weight: 800;
   font-size: 1rem;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #beebaa44;
+  background-color: #007ef5d8;
 }
 
 /* paragraph */
@@ -89,7 +89,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #0a5822;
+  color: #0db2ff;
   margin-top: 2rem;
   line-height: 1.2;
 }
@@ -136,7 +136,7 @@ h4 {
 
 .masthead {
   margin: 3rem 0;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid rgb(4, 128, 245);
 }
 
 .footer {
@@ -148,5 +148,5 @@ h4 {
   margin-top: 2rem;
   padding: 0.5rem 1rem;
   text-align: center;
-  background-color: #5a7913;
+  background-color: #00b7ff;
 }
